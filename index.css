@@ -30,6 +30,8 @@ h1 {
 .content-flex-container {
    display: flex;
 	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
   }
 section {
    background-color: #fb8c00;
@@ -40,6 +42,7 @@ section {
 }
 .content-flex-container2 {
    display: flex;
+
   }
 .aside1   {
    background-color:  #fb8c00;
@@ -92,16 +95,15 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%;
 }
 
 .circle{
-	size: 50%;
 	padding: .5em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
 	border-radius: 1120px;
 }
 
@@ -110,6 +112,10 @@ img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.hao {
+	width: 60%;
 }
 
 .nav-flex-container ul {
